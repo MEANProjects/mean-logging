@@ -4,6 +4,8 @@ This project aims to demonstrate a logging method form MEAN applications using p
 
 ## Need
 
+## big picture
+
 ## setup pino & pino-elasticsearch
 
 ## setup elastic search and kibana
