@@ -2,6 +2,22 @@
 
 This project aims to demonstrate a logging method form MEAN applications using pinoJS and elastic-search engine. This project does not implement any logger. This project was generated with the [Angular Full-Stack Generator](https://github.com/DaftMonk/generator-angular-fullstack) version 4.2.2.
 
+## Need
+
+## setup pino & pino-elasticsearch
+
+## setup elastic search and kibana
+
+## pino logs examples
+
+## add pino log level
+
+## update gulp to transport logs to kibana
+
+## visualize log data in kibana
+
+## profile logging overhead
+
 ## Getting Started
 
 ### Prerequisites
