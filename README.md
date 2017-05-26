@@ -7,6 +7,7 @@ This project aims to demonstrate a logging method form MEAN applications using p
 ## setup pino & pino-elasticsearch
 
 ## setup elastic search and kibana
+https://hub.docker.com/r/nshou/elasticsearch-kibana/
 
 ## pino logs examples
 
