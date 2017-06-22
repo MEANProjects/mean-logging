@@ -10,6 +10,7 @@ easy to analyze logs
 ## big picture
 
 ## setup pino & pino-elasticsearch
+install bunyan, bunyan elastic search, pino
 
 ## setup elastic search and kibana
 https://hub.docker.com/r/nshou/elasticsearch-kibana/
