@@ -10,6 +10,7 @@ export class MainController {
 
   /*@ngInject*/
   constructor($http, $scope, socket) {
+    logger.info("testing client side logs");
     this.$http = $http;
     this.socket = socket;
 
