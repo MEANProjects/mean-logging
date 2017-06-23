@@ -13,6 +13,7 @@ easy to analyze logs
 install bunyan, bunyan elastic search, pino
 include in server side
 include in client side
+solve gulp failures
 allow localhost in elasticsearch config file
 plan log levels
 configure streams
