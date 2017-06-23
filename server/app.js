@@ -10,7 +10,7 @@ mongoose.Promise = require('bluebird');
 import config from './config/environment';
 import http from 'http';
 import seedDatabaseIfNeeded from './config/seed';
-
+import logger from './logs';
 // Connect to MongoDB
 mongoose.connect(config.mongo.uri, config.mongo.options);
 mongoose.connection.on('error', function(err) {
@@ -35,6 +35,8 @@ function startServer() {
     console.log('Express server listening on %d, in %s mode', config.port, app.get('env'));
   });
 }
+
+logger.info("testing logger module");
 
 seedDatabaseIfNeeded();
 setImmediate(startServer);
