@@ -11,6 +11,11 @@ easy to analyze logs
 
 ## setup pino & pino-elasticsearch
 install bunyan, bunyan elastic search, pino
+include in server side
+include in client side
+allow localhost in elasticsearch config file
+plan log levels
+configure streams
 
 ## setup elastic search and kibana
 https://hub.docker.com/r/nshou/elasticsearch-kibana/
